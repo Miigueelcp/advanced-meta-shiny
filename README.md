@@ -23,6 +23,22 @@ La aplicación ofrece un flujo de trabajo completo, desde el tratamiento de dato
   * **Datos Binarios:** Odds Ratio (OR) y Razón de Riesgos (RR).
   * **Asociación:** Correlaciones mediante transformación $z$ de Fisher (ZCOR). 
 
+### 2. Motor de Meta-Análisis
+* **Modelado Flexible:** Comparación simultánea de modelos de efectos fijos y aleatorios.
+* **Parametros Globales:** Estimadores de $\tau^2$, ajuste de Hartung-Knapp e intervalos de predicción.
 
+### 3. Visualización de Gráficos
+* **Forest Plots:** Estilos configurables (JAMA, RevMan5) con capacidad de ordenación según el tamaño del efecto.
+* **Drapery Plots:** Visualización de la significación estadística en función del nivel de confianza.
 
+### 4. Identificación de Sesgos y Heterogeneidad
+* **Detección de Outliers:** Gráficos de Baujat, análisis de influencia (*Leave-one-out*) y gráficos de diagnóstico.
+* **Análisis GOSH:** Exploración exhaustiva de la heterogeneidad mediante *Graphic Display of Heterogeneity*.
+
+### 5. Análisis de Subgrupos
+Se puede realizar un análisis estratificado por subgrupos, con la opción de asumir una estimación común de $\tau^2$ entre ellos. Además, se dispone de un forest plot para visualizar los resultados por subgrupos.
+
+### 6. Meta-Regresión
+**Modelado:** Inclusión de múltiples covariables y términos de interacción, junto la posibilidad de seleccionar distintos métodos de estimación.
+* **Validación Robusta:** Evaluación de la multicolinealidad, **bubble plots** para representar la relación entre moderadores y el efecto combinado en el meta-análisis y **pruebas de permutación** para asegurar la fiabilidad en contextos con un número reducido de estudios ($k$).
 
