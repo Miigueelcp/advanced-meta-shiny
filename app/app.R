@@ -3,7 +3,7 @@
 # ==============================================================================
 
 
-# 1. Cargamos de Paquetes
+# 1. Carga de Paquetes
 
 # Paquetes de Interfaz y Sistema
 library(shiny)
