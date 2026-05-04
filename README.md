@@ -19,7 +19,8 @@ La aplicación ofrece un flujo de trabajo completo, desde el tratamiento de dato
 
 ### 1. Gestión de Datos y Cálculo del Efecto
 * **Automatización:** Cálculo de tamaños del efecto a partir de datos brutos o entrada directa de estimaciones previas.
-* **Metricas soportadas:** **Datos Continuos:** Diferencia de Medias (MD) y Diferencia de Medias Estandarizada (SMD/g).
+* **Metricas soportadas:**
+  * **Datos Continuos:** Diferencia de Medias (MD) y Diferencia de Medias Estandarizada (SMD/g).
   * **Datos Binarios:** Odds Ratio (OR) y Razón de Riesgos (RR).
   * **Asociación:** Correlaciones mediante transformación $z$ de Fisher (ZCOR). 
 
