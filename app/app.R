@@ -10,7 +10,7 @@ library(shiny)
 library(shinydashboard)
 library(rsconnect) 
 
-# Paquete de Manejo de Datos y Tablas
+# Paquetes de Manejo de Datos y Tablas
 library(tidyverse)
 library(readxl) 
 library(DT)
@@ -25,13 +25,13 @@ library(MuMIn)
 library(PerformanceAnalytics)
 
 
-# 2. Cargamos la interfaz de usuario
+# 2. Carga de la interfaz de usuario
 source("ui.R")
 
 
-# 3. Cargamos la lógica del servidor
+# 3. Carga de la lógica del servidor
 source("server.R")
 
 
-# 4. Lanzamos la aplicación interactiva
+# 4. Lanzamiento de la aplicación interactiva
 shinyApp(ui,server)
