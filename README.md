@@ -1,4 +1,4 @@
-# Advances Meta-Analysis & Meta-Regression Shiny App
+# Advanced Meta-Analysis & Meta-Regression Shiny App
 
 ## Resumen / Overview
 
