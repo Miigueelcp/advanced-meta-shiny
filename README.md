@@ -42,3 +42,10 @@ Se puede realizar un análisis estratificado por subgrupos, con la opción de as
 **Modelado:** Inclusión de múltiples covariables y términos de interacción, junto la posibilidad de seleccionar distintos métodos de estimación.
 * **Validación Robusta:** Evaluación de la multicolinealidad, **bubble plots** para representar la relación entre moderadores y el efecto combinado en el meta-análisis y **pruebas de permutación** para asegurar la fiabilidad en contextos con un número reducido de estudios ($k$).
 
+## Cómo ejecutar la aplicación
+
+No es necesario que el usuario descargue ni instale el código manualmente. Puede ejecutar la plataforma directamente desde la consola de **RStudio** utilizando el siguiente comando: 
+
+```r
+if (!require("shiny")) install.packages("shiny")
+shiny::runGitHub("tu-usuario/tu-repositorio", subdir = "app")
